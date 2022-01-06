@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-01-06T14:06:37.639Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="vdnrq3ACyA5nhgSj6I40" version="16.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-06T14:08:22.742Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="7ZBG6n2wv00-vXHw_gO4" version="16.2.2" type="github">
   <diagram name="Page-1" id="52a04d89-c75d-2922-d76d-85b35f80e030">
-    <mxGraphModel dx="569" dy="366" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="813" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="tIwHrmOdtHiu5mDoxhR2-10" value="Koa server" style="swimlane;" parent="1" vertex="1">
-          <mxGeometry x="50" y="260" width="620" height="630" as="geometry" />
+          <mxGeometry x="50" y="250" width="620" height="630" as="geometry" />
         </mxCell>
         <mxCell id="tIwHrmOdtHiu5mDoxhR2-9" value="Cache" style="rounded=1;whiteSpace=wrap;html=1;" parent="tIwHrmOdtHiu5mDoxhR2-10" vertex="1">
           <mxGeometry x="20" y="50" width="120" height="60" as="geometry" />
@@ -150,6 +150,9 @@
         </mxCell>
         <mxCell id="1rME_TI9bVdFKtMDWncs-79" value="component&lt;br&gt;boot function" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="tIwHrmOdtHiu5mDoxhR2-10">
           <mxGeometry x="50" y="540" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1rME_TI9bVdFKtMDWncs-85" value="Loader 加载html文件、js模块" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="tIwHrmOdtHiu5mDoxhR2-10">
+          <mxGeometry y="175" width="170" height="20" as="geometry" />
         </mxCell>
         <mxCell id="tIwHrmOdtHiu5mDoxhR2-4" value="&lt;h1&gt;Qs&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;扫描views获得fetch和Comp&lt;/li&gt;&lt;li&gt;拿到请求路由fetch&lt;/li&gt;&lt;li&gt;解决redirect&lt;/li&gt;&lt;li&gt;流式渲染&lt;/li&gt;&lt;li&gt;日志&lt;/li&gt;&lt;li&gt;打点&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="10" y="10" width="190" height="150" as="geometry" />
